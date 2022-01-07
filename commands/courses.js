@@ -45,7 +45,7 @@ module.exports = {
           
           //embeded msg of all available courses
           const exampleEmbed = new Discord.MessageEmbed()
-            .setAuthor("NxT Media Technologie", "https://play-lh.googleusercontent.com/2_M-EEPXb2xTMQSTZpSUefHR3TjgOCsawM3pjVG47jI-BrHoXGhKBpdEHeLElT95060B=s180", "https://canvas.kdg.be")
+            .setAuthor("Canvas Bot", "https://play-lh.googleusercontent.com/2_M-EEPXb2xTMQSTZpSUefHR3TjgOCsawM3pjVG47jI-BrHoXGhKBpdEHeLElT95060B=s180", "https://github.com/leeroywking/canvas_discord_announcements")
             .setColor("#00FFFF")
             .setTitle("Courses available ATM!")
             .setDescription(
