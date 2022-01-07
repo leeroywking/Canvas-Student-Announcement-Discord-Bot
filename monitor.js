@@ -73,7 +73,7 @@ module.exports = (client, courseAnn) => {
                   )
                   .setTimestamp()
                   .setFooter(
-                    "NxT Media Technology",
+                    "Canvas Notifications",
                     "https://play-lh.googleusercontent.com/2_M-EEPXb2xTMQSTZpSUefHR3TjgOCsawM3pjVG47jI-BrHoXGhKBpdEHeLElT95060B=s180"
                   );
 

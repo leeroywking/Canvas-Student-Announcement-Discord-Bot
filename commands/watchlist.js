@@ -58,7 +58,7 @@ module.exports = {
                 }
 
                 const exampleEmbed = new Discord.MessageEmbed()
-                  .setAuthor("NxT Media Technologie", "https://play-lh.googleusercontent.com/2_M-EEPXb2xTMQSTZpSUefHR3TjgOCsawM3pjVG47jI-BrHoXGhKBpdEHeLElT95060B=s180", "https://canvas.kdg.be")
+                  .setAuthor("Canvas Notifications", "https://play-lh.googleusercontent.com/2_M-EEPXb2xTMQSTZpSUefHR3TjgOCsawM3pjVG47jI-BrHoXGhKBpdEHeLElT95060B=s180", "https://github.com/leeroywking/canvas_discord_announcements")
                   .setColor("#32a852")
                   .setTitle("Watchlist " + message.channel.name)
                   .setDescription("These are the courses that are being watched on this channel")
