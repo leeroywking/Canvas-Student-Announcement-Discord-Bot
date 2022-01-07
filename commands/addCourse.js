@@ -5,7 +5,11 @@ const path = require("path");
 
 const { prefix } = require("../config.json");
 
-const urlCourse = process.env.CANVAS_API_COURSE_URL;
+const CANVAS_DOMAIN = process.env.CANVAS_DOMAIN;
+const CANVAS_TOKEN = process.env.CANVAS_TOKEN;
+
+const urlCourse =`https://${CANVAS_DOMAIN}/api/v1/courses/[courseid]?access_token=${CANVAS_TOKEN}`
+
 
 const meta = {
 

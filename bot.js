@@ -60,7 +60,9 @@ client.on("ready", () => {
 
         row.forEach((element) => {
           //if(!isNaN(element)){
-          let annURL = process.env.CANVAS_API_ANN_URL;
+          const CANVAS_DOMAIN = process.env.CANVAS_DOMAIN;
+          const CANVAS_TOKEN = process.env.CANVAS_TOKEN;
+          const annURL = `https://${CANVAS_DOMAIN}/api/v1/announcements?context_codes[]=course_${element.course_id}&access_token=${CANVAS_TOKEN}`;
           monitor(client, annURL.replace("[courseid]", element.course_id));
           //}
         });

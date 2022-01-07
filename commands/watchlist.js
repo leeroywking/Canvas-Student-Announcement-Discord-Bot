@@ -3,7 +3,9 @@ const axios = require("axios");
 const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
-const urlCourses = process.env.CANVAS_API_COURSES_URL;
+const CANVAS_DOMAIN = process.env.CANVAS_DOMAIN;
+const CANVAS_TOKEN = process.env.CANVAS_TOKEN;
+const urlCourses = `https://${CANVAS_DOMAIN}/api/v1/courses?enrollment_state=active&access_token=${CANVAS_TOKEN}`
 
 const meta = {
   
