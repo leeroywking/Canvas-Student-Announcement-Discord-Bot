@@ -8,9 +8,5 @@
     "sequelize": "^6.12.5",
     "sqlite3": "^5.0.2"
   },
-  "scripts":{
-    "build":"npm install",
-    "start":"node bot.js"
-  },
   "name": "Canvas-Student-Announcement-Discord-Bot"
 }
